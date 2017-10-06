@@ -1,13 +1,13 @@
 Calculate second lowest cost silver plan (SLCSP)
 ================================================
 
-Immplementation - Jonathan Perrine
+Implementation - Jonathan Perrine
 ----------------------------------
-slcsp.rb relies on plan_book and rate_area book for csv processing.
+`lib/slcsp.rb` relies on `plan_book.rb` and `rate_area_book.rb` for csv processing.
 
 `bundle install` will install prerequisites (namely rspec)
 
-To run, use the 'calculate_slcsp' rake task:
+To run, use the :calculate_slcsp rake task:
 
 `rake calculate_slcsp`
 
